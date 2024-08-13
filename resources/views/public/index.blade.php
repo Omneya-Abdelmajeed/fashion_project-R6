@@ -1,13 +1,13 @@
-@extends('layouts.main')
+@extends('public.layouts.main')
 
 @section('content')
 
-    @include('includes.slideshow')
+    @include('public.includes.slideshow')
 
-    @include('includes.about')
+    @include('public.includes.about')
 
-    @include('includes.front-product')
+    @include('public.includes.front-product')
 
-    @include('includes.featured-product')
+    @include('public.includes.featured-product')
 
 @endsection
